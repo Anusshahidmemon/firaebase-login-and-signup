@@ -44,5 +44,5 @@ document.addEventListener("DOMContentLoaded",function(){
 onAuthStateChanged(auth, (user) => {
   if (user) {
   
-window.location.href="../login/login.html"
+window.location.href="./login/login.html"
   }});

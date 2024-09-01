@@ -31,11 +31,11 @@ document.addEventListener("DOMContentLoaded",function(){
           const errorMessage = error.message;
      
         });
-        
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+            
+          window.location.href="../Dashboard/dashboard.html"
+            }}); 
     })
+
 })
-onAuthStateChanged(auth, (user) => {
-    if (user) {
-    
-  window.location.href="../Dashboard/dashboard.html"
-    }});
